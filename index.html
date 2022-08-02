@@ -45,10 +45,6 @@
 			const id = window.location.search.replace('?', '');
 			// local
 			//const id = window.location.search.replace('?id=', '');
-			if (txt == 'decuong') {
-				const link = `https://canvas.dntu.edu.vn/courses/${id}/pages/de-cuong`
-				window.open(link, "_blank");
-			}
 			if (txt == 'teams') {
 				if (id == 1433) { var link = `https://teams.microsoft.com/l/team/19%3aFw1OvWt9b1fbbAiuzuG2gE02MtLq0Evd-bNngJT_JvA1%40thread.tacv2/conversations?groupId=84702213-a013-4ac7-a242-63c9cf57060a&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
 				if (id == 1434) { var link = `https://teams.microsoft.com/l/team/19%3axf13h12oZRa8n4GBhLBPZj3Wr4HihKPBt97icMV6CFE1%40thread.tacv2/conversations?groupId=96ea9039-ed35-435d-b03f-b95e1cdd2865&tenantId=6e0182cd-b36b-4286-b337-e3811b35f106` }
@@ -162,7 +158,7 @@
 				</div>
 
 				<!-- service item -->
-				<a href="#" onclick="openLink('decuong');">
+				<a href="#" onclick="openLink('pages/de-cuong');">
 					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="500ms">
 						<div class="service-item">
 							<div class="service-icon">
@@ -179,7 +175,7 @@
 				<!-- end service item -->
 
 				<!-- service item -->
-				<a href="#" onclick="openLink('files');">
+				<a href="#" onclick="openLink('pages/bai-giang');">
 					<div class="col-sm-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
 						<div class="service-item">
 							<div class="service-icon">
